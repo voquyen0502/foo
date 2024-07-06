@@ -148,11 +148,17 @@ $('#play').click(function () {
         document.getElementById('stage1').style.display = 'block';
         document.getElementById('stage1').playbackRate = 0.7;
         document.getElementById('stage1').play();
+        document.getElementById('stage1').addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
         document.getElementById('stage1').addEventListener('ended', function() {
             this.style.display = 'none';
             document.getElementById('stage2').style.display = 'block';
             document.getElementById('stage2').playbackRate = 0.7;
             document.getElementById('stage2').play();
+            document.getElementById('stage2').addEventListener('contextmenu', function(e) {
+                e.preventDefault();
+            });
         });
     }, 2000);
 
