@@ -1,0 +1,15 @@
+const CONFIG = {
+    introTitle: 'Hellooo!',
+    introDesc: 'Welcome to my gameshow :>',
+    btnIntro: '??? ._.',
+    title: 'Trả lời đúng hết câu hỏi là có quà nhaa',
+    desc: 'Đầu tiên, hôm nay là ngày gì í',
+    btnYes: 'Ủa, ngày gì dị 🥲 Tớ hong biết',
+    btnNo: 'Sinh nhật của An Nhiên',
+    question:'OK =)) Qua câu thứ 2, sinh nhật tớ là ngày mấy dị',
+    btnReply: 'Gửi ._.',
+    reply: 'Hic, tớ quên rồi :<',
+    mess: '=))) Ôi, cái con người này, cái gì cũng không biết',
+    messDesc: 'Thất vọng quá đii!!! Thôi thì hôm nay sinh nhật cậu nên tớ sẽ tạm cho qua',
+    btnAccept: 'Vâng :(',
+}

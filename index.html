@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A lovely minigame :></title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/spinload.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Pacifico" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Preloader -->
+    <div id="preloader">
+      <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+  </div>
+      <div id="bg"></div>
+      <div class="content">
+        <!-- <img class="image" src="img/catflower.jpg"></img> -->
+        <header>
+          <h2 id="title"></h2>
+          <h3 id="desc"></h3>
+        </header>
+        <button id="yes" type="button" class="btn btn-danger btn-lg"> </button>
+        <button id="no" type="button" class="btn btn-info btn-lg"></button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+          <div class="loader">
+              <button id="play">Nhấn vào đâyy</button>
+          </div>
+      </div>
+  </div>
+    <audio class="song" controls loop>
+      <source src="./sound/sound.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <video id="stage1" class="video-background" style="display: none;" muted>
+      <source src="stage1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
+
+  <video id="stage2" class="video-background" loop style="display: none;" muted>
+      <source src="stage2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="./config.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
